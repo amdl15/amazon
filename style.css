@@ -1,0 +1,485 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: #131921;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav #sec-1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-left: 10px;
+}
+nav #sec-1 #amazon {
+  width: 130px;
+}
+nav #sec-1 #amazon:hover {
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+nav #sec-1 div {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: baseline;
+  gap: 5px;
+  align-items: center;
+  width: 100px;
+}
+nav #sec-1 div:hover {
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+nav #sec-1 div p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 100;
+}
+nav #sec-1 div span {
+  font-family: sans-serif;
+  font-size: small;
+  font-weight: 900;
+}
+nav #sec-1 div img {
+  width: 20px;
+}
+nav form {
+  width: 50%;
+  display: flex;
+}
+nav form input {
+  width: 90%;
+  text-indent: 5px;
+  font-size: 15px;
+}
+nav form #btn-nav1 {
+  border-style: none;
+  border-radius: 10px 0 0 10px;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 11px;
+  font-weight: 100;
+  color: gray;
+}
+nav form #btn-nav2 {
+  border-style: none;
+  border-radius: 0 10px 10px 0;
+  padding: 10px;
+  background-color: #f3a847;
+}
+nav form #btn-nav2 img {
+  width: 20px;
+}
+nav #sec-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  margin-right: 5px;
+}
+nav #sec-2 #btn-nav3 {
+  background-color: #131921;
+  display: flex;
+  color: white;
+  padding: 5px;
+  border-style: none;
+  font-family: sans-serif;
+  font-size: small;
+  font-weight: 900;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+nav #sec-2 #btn-nav3:hover {
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+nav #sec-2 #btn-nav3 #bandera {
+  width: 25px;
+}
+nav #sec-2 #btn-nav4 {
+  background-color: #131921;
+  display: flex;
+  color: white;
+  padding: 5px;
+  border-style: none;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+nav #sec-2 #btn-nav4:hover {
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+nav #sec-2 #btn-nav4 span {
+  font-family: sans-serif;
+  font-size: small;
+  font-weight: 900;
+}
+nav #sec-2 #btn-nav5 {
+  background-color: #131921;
+  display: flex;
+  color: white;
+  padding: 5px;
+  border-style: none;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+nav #sec-2 #btn-nav5:hover {
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+nav #sec-2 #btn-nav5 span {
+  font-family: sans-serif;
+  font-size: small;
+  font-weight: 900;
+}
+nav #sec-2 #btn-nav6 {
+  background-color: #131921;
+  display: flex;
+  color: white;
+  padding: 5px;
+  border-style: none;
+  font-family: sans-serif;
+  font-size: small;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 5px;
+}
+nav #sec-2 #btn-nav6:hover {
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+nav #sec-2 #btn-nav6 img {
+  width: 45px;
+}
+
+main #sec1-main {
+  width: 100%;
+  height: 40px;
+  background-color: #232f3e;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 10px;
+}
+main #sec1-main div {
+  display: flex;
+  align-items: center;
+}
+main #sec1-main div:hover {
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+main #sec1-main div a {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  text-decoration-line: none;
+  padding: 10px;
+}
+main #sec1-main .enlaces {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  text-decoration-line: none;
+  padding: 10px;
+}
+main #sec1-main .enlaces:hover {
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+main #sec1-main img {
+  width: 20px;
+}
+main #sec2-main {
+  width: 100%;
+  height: 600px;
+  background-image: url("https://m.media-amazon.com/images/I/71pxwxECXFL._SX3000_.jpg"), linear-gradient(rgba(187, 161, 161, 0.219), rgba(243, 247, 248, 0.904));
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+main #sec2-main #art1-main #contenedor1 {
+  display: flex;
+  justify-content: space-between;
+}
+main #sec2-main #art1-main #contenedor1 div {
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  margin-top: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+main #sec2-main #art1-main .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+main #sec2-main #art1-main .contenedor div {
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+main #sec2-main #art1-main .contenedor div h2 {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+main #sec2-main #art1-main .contenedor div a {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 200;
+  text-decoration-line: none;
+  color: #0880af;
+}
+main #sec2-main #art1-main .contenedor div #prod1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+}
+main #sec2-main #art1-main .contenedor div #prod1 section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+main #sec2-main #art1-main .contenedor div #prod1 section img {
+  width: 120px;
+}
+main #sec2-main #art1-main .contenedor div #prod1 section #img-articulos {
+  width: 250px;
+  height: 275px;
+}
+main #sec3-main {
+  width: 100%;
+  height: 500px;
+  background-color: #d4d4d4;
+}
+main #sec4-main {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+main #sec4-main hr {
+  background-color: gray;
+  width: 100%;
+}
+main #sec4-main button {
+  padding: 5px 80px;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  background-color: #ffcc4b;
+  border-color: #f5b411;
+  mask-border-width: 50px;
+}
+main #sec4-main p:nth-child(2) {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+main #sec4-main p:nth-child(4) {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 200;
+}
+main #sec4-main p:nth-child(4) span {
+  color: #0880af;
+}
+
+footer #sec1-footer #art1-footer {
+  width: 100%;
+  height: 60px;
+  background-color: #485769;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+}
+footer #sec1-footer #art2-footer {
+  width: 100%;
+  height: 300px;
+  background-color: #232f3e;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+footer #sec1-footer #art2-footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 40px;
+}
+footer #sec1-footer #art2-footer h2 {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+footer #sec1-footer #art2-footer a {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  text-decoration: none;
+  color: white;
+}
+footer #sec1-footer #art2-footer a:hover {
+  text-decoration-line: underline;
+}
+footer #sec1-footer #art2-footer hr {
+  width: 100%;
+}
+footer #sec1-footer #art3-footer {
+  width: 100%;
+  height: 100px;
+  background-color: #232f3e;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 120px;
+}
+footer #sec1-footer #art3-footer #logo-amazon {
+  width: 150px;
+  height: 40px;
+}
+footer #sec1-footer #art3-footer div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+footer #sec1-footer #art3-footer p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px 15px;
+}
+footer #sec1-footer #art3-footer p:nth-of-type(3) {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5px;
+  align-items: flex-end;
+}
+footer #sec2-footer {
+  background-color: #131a22;
+  width: 100%;
+  height: 410px;
+}
+footer #sec2-footer .contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+footer #sec2-footer .contenedor ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+footer #sec2-footer .contenedor ul p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 0;
+}
+footer #sec2-footer .contenedor ul p:hover {
+  text-decoration-line: underline;
+}
+footer #sec2-footer .contenedor ul p b {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+}
+footer #sec2-footer #condiciones {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 320px;
+  align-items: center;
+  margin-top: 10px;
+}
+footer #sec2-footer #condiciones p {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  color: white;
+}
+footer #sec2-footer #condiciones p:nth-child(3) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+footer #sec2-footer #condiciones p:hover {
+  text-decoration-line: underline;
+}
+footer #sec2-footer #condiciones2 {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer #sec2-footer #condiciones2 p {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  color: white;
+}
+footer #sec2-footer #condiciones2 p:hover {
+  text-decoration-line: underline;
+}
+
+/*# sourceMappingURL=style.css.map */
